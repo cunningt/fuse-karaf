@@ -271,7 +271,7 @@
                                         <include name="version.properties" />
                                     </fileset>
                                 </copy>
-                                <zip destfile="${karaf.home}/../patches/fuse-karaf-7.0.0-baseline.zip">
+                                <zip destfile="${karaf.home}/../patches/fuse-karaf-7.1.0-baseline.zip">
                                     <fileset dir="${karaf.home}/../patches" >
                                         <include name="_baseline-root/**" />
                                     </fileset>

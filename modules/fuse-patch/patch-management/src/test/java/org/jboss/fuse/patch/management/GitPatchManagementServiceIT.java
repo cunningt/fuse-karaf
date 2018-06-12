@@ -111,7 +111,7 @@ public class GitPatchManagementServiceIT extends PatchTestSupport {
     @Test
     public void initializationPerformedBaselineDistributionFoundInPatches() throws IOException, GitAPIException {
         freshKarafStandaloneDistro();
-        preparePatchZip("src/test/resources/baselines/baseline1", "target/karaf/patches/fuse-karaf-7.0.0-baseline.zip", true);
+        preparePatchZip("src/test/resources/baselines/baseline1", "target/karaf/patches/fuse-karaf-7.1.0-baseline.zip", true);
         validateInitialGitRepository();
         // check one more time - should not do anything harmful
         validateInitialGitRepository();

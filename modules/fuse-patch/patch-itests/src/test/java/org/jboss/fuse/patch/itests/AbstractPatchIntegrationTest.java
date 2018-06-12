@@ -79,7 +79,7 @@ public abstract class AbstractPatchIntegrationTest extends FuseKarafTestSupport 
                 mavenBundle("org.apache.commons", "commons-compress").versionAsInProject(),
                 mavenBundle("commons-io", "commons-io").versionAsInProject(),
 
-                editConfigurationFilePut("etc/version.properties", "version", "7.0.0"),
+                editConfigurationFilePut("etc/version.properties", "version", "7.1.0"),
                 editConfigurationFilePut("etc/custom.properties", "fuse.patch.location", System.getProperty("fuse.patch.location")),
 //                debugConfiguration("9999", true),
                 features(patchFeature, "patch")
